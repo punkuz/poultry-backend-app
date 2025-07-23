@@ -1,0 +1,21 @@
+{
+  "name": "poultry-backend-app",
+  "version": "1.0.0",
+  "description": "poultry-project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module", 
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "SajidMiya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
+  }
+}
