@@ -4,9 +4,10 @@
   "description": "poultry-project",
   "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
   },
-  "type": "module", 
+  "type": "module",
   "keywords": [
     "nodejs",
     "express",
@@ -17,5 +18,8 @@
   "dependencies": {
     "express": "^5.1.0",
     "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
